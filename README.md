@@ -17,7 +17,10 @@ npm i -g @nestjs/cli
 ```
 docker-compose up -d
 ```
-
+5. Rebuld the database using the seed
+```
+localhost:3000/api/v2/seed
+```
 ## Stack
 * MongoDB
 * Nest
